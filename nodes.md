@@ -36,4 +36,4 @@ cout的另一个优点在于可以进行拼接。
 ```c++
 cout<<"my name is " << name << "please help me ";
 ```
- 
+## 共用体 
