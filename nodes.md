@@ -48,3 +48,4 @@ union sum
 }
 
 ```
+因此，sum有时是int，有时是long或double，根据需要的条件不同，会有不同的类型。
