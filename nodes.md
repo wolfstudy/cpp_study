@@ -87,17 +87,12 @@ void Prnt (Day day)  // Print whether a day is a 'Weekend' or a "Weekday".
 }
 
 int main(){
-        enum Fruit {apple, pear, orange, banana} frt1; // 'frt1' can be declarated here.
-        
+        enum Fruit {apple, pear, orange, banana} frt1; // 'frt1' can be declarated here.  
         // int apple; // error: redefinition of 'apple'
-        
-        typedef enum Fruit ShuiGuo; // In c++, 'enum' can be omitted.
-        
+        typedef enum Fruit ShuiGuo; // In c++, 'enum' can be omitted. 
         enum Fruit frt2 = apple; // In c++, 'enum' can be omitted.
         ShuiGuo frt3 = pear; // After type-declaration synonym, 'enum' can not exist here!
-        
         frt1 = (Fruit) 0; // 'frt1' can be assigned with number by explicit cast.
-        
         for (int i = apple; i <= banana; i++)
                 switch (i)
                 {
@@ -116,7 +111,6 @@ int main(){
         Prnt (Wednesday);
         Prnt (Thursday);
         Prnt (Friday);
-        
         
         return 0;
 }
