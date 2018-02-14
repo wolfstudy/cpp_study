@@ -36,4 +36,15 @@ cout的另一个优点在于可以进行拼接。
 ```c++
 cout<<"my name is " << name << "please help me ";
 ```
-## 共用体 
+## 共用体
+
+共用体是一种数据格式，可以存储不同的数据类型，举例如下：
+```c++
+union sum
+{
+    int int_val;
+    long long_val;
+    double double_val;
+}
+
+```
